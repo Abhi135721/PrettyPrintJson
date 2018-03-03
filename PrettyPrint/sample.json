@@ -1,0 +1,19 @@
+{
+"boy" : 1,
+	"name": "David",
+	"age": 35,
+	"courses": [
+		1,
+		"Foreign Language",
+		"Animal Biology"
+	],
+"courses2": [
+		1,
+		"Foreign Language",
+		"Animal Biology"
+	],"courses1": [
+		1,
+		"Foreign Language",
+		"Animal Biology"
+	]
+}
