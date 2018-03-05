@@ -1,4 +1,7 @@
-[{
+[{"Abhi" : 1,
+"A" : true,
+"B" : "c",
+
 
 	"courses": [
 		1,
@@ -13,11 +16,9 @@
 		1,
 		"Foreign Language",
 		"Animal Biology"
-	]
-},
-{
+	],
 
-	"courses4": [
+	"courses8" : [
 		1,
 		"Foreign Language",
 		"Animal Biology"
@@ -33,3 +34,4 @@
 	]
 }
 ]
+
