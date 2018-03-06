@@ -1,37 +1,40 @@
-[{"Abhi" : 1,
-"A" : true,
-"B" : "c",
-
-
-	"courses": [
-		1,
-		"Foreign Language",
-		"Animal Biology"
-	],
-"courses2": [
-		1,
-		"Foreign Language",
-		"Animal Biology"
-	],"courses1": [
-		1,
-		"Foreign Language",
-		"Animal Biology"
-	],
-
-	"courses8" : [
-		1,
-		"Foreign Language",
-		"Animal Biology"
-	],
-"courses3": [
-		1,
-		"Foreign Language",
-		"Animal Biology"
-	],"courses7": [
-		1,
-		"Foreign Language",
-		"Animal Biology"
-	]
-}
+[
+     {
+          "Abhi" : 10
+     },
+     {
+          "courses3" :  [
+                    1,
+                    "Foreign Language",
+                    "Animal Biology"
+          ],
+          "A" : true,
+          "courses" :  [
+                    1,
+                    "Foreign Language",
+                    "Animal Biology"
+          ],
+          "courses2" :  [
+                    1,
+                    "Foreign Language",
+                    "Animal Biology"
+          ],
+          "B" : "c",
+          "courses1" :  [
+                    1,
+                    "Foreign Language",
+                    "Animal Biology"
+          ],
+          "courses7" :  [
+                    1,
+                    "Foreign Language",
+                    "Animal Biology"
+          ],
+          "courses8" :  [
+                    1,
+                    "Foreign Language",
+                    "Animal Biology"
+          ],
+          "Abhi" : 1
+     }
 ]
-
