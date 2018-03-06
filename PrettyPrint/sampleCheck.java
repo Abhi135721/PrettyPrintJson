@@ -21,6 +21,7 @@ public class sampleCheck {
     boolean tab = false;
     int tabs = 0;
     boolean replace = false;
+    String file = "";
     for (int i = 0; i < args.length; i++) {
       if (args[i].equals("--compact")) compact = true;
       else if (args[i].equals("--tab")) tab = true;
@@ -31,8 +32,10 @@ public class sampleCheck {
                   (args[i].substring(args[i].indexOf('=') + 1, args[i].length()))
                       .replaceAll(" ", ""));
         }
-        if (args[i].substring(0, args[i].indexOf("=")).equals("--indent")) {}
-
+        if (args[i].substring(0, args[i].indexOf("=")).equals("--from-file")) {
+          file = args[i].substring(args[i].indexOf('=') + 1, args[i].length());
+          System.out.println(file);
+        }
       } else if (args[i].equals("--replace")) replace = true;
       else {
         indent = "  ";
@@ -51,7 +54,7 @@ public class sampleCheck {
         e1.printStackTrace();
       }
     try {
-      Object object = parser.parse(new FileReader("src/sample.json"));
+      Object object = parser.parse(new FileReader(file));
       if (object.getClass().getName().equals("org.json.simple.JSONArray")) {
         JSONArray A = (JSONArray) object;
         // System.out.println(A);
