@@ -5,8 +5,8 @@
      {
           "courses3" :  [
                     1,
-                    "Foreign Language",
-                    "Animal Biology"
+					      "Foreign Language",
+					    "Animal Biology"
           ],
           "A" : true,
           "courses" :  [
