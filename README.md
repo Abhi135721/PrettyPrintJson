@@ -1,9 +1,8 @@
 # PrettyPrintJson
 
-##Description
-Create a command line utility called PrettyJSON. Given a JSON document, pretty print it - either in-place
+1. Description:
 
-or output to the console.
+PrettyPrintJSON is a command line utility Given a JSON document, pretty print it - either in-place or output to the console.
 
 eg:
 
@@ -31,43 +30,41 @@ $ cat file.json
 
 When we run PrettyPrintJSON on it,
 
-$ java -jar PrettyPrintJSON --from-file=file.json
+## $ java -jar PrettyPrintJSON --from-file=file.json
 
 [
 
-{
+  {
 
-"name": "Nico Williams",
+  "name": "Nico Williams",
 
-"parents": [
+  "parents": [
 
-"Bob",
+  "Bob",
 
-"Wilma"
+  "Wilma"
 
-],
+  ],
 
-"student": true
+  "student": true
 
-},
+  },
 
-1
+  {
 
-{
+  "name": "Nico Williams",
 
-"name": "Nico Williams",
+  "parents": [
 
-"parents": [
+    "Carl",
 
-"Carl",
+    "Carly"
 
-"Carly"
+  ],
 
-],
+  "student": true
 
-"student": true
-
-}
+  }
 
 ]
 
