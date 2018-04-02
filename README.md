@@ -32,41 +32,41 @@ When we run PrettyPrintJSON on it,
 
 ## $ java -jar PrettyPrintJSON --from-file=file.json
 
-[
+    [
 
-    {
+        {
 
-        "name": "Nico Williams",
+            "name": "Nico Williams",
 
-        "parents": [
+            "parents": [
 
-            "Bob",
+                "Bob",
 
-            "Wilma"
+                "Wilma"
 
-        ],
+            ],
 
-        "student": true
+            "student": true
 
-    },
+        },
 
-    {
+        {
 
-    "name": "Nico Williams",
+            "name": "Nico Williams",
 
-    "parents": [
+            "parents": [
 
-        "Carl",
+                "Carl",
 
-        "Carly"
+                "Carly"
 
-    ],
+            ],
 
-    "student": true
+            "student": true
 
-    }
+        }
 
-]
+    ]
 
 It pretty prints the given JSON.
 
@@ -82,28 +82,23 @@ or,
 
 $ java -jar PrettyPrintJSON --compact --from-file=file.json
 
-2.1 --from-file:
+### 2.1 --from-file:
+    Read from file.
 
-Read from file.
-
-2.2 --compact-output:
+### 2.2 --compact-output:
 
 By default, PrettyPrintJSON pretty-prints JSON output. Using this option will result in more compact
 
 output by outputting everything on a single line.
 
-2.3 --tab:
+### 2.3 --tab:
 
 Use a tab for each indentation level instead of the default of two spaces.
 
-2.4 --indent n:
+### 2.4 --indent n:
 
 Use the given number of spaces(or tabs) (no more than 8) for indentation.
 
-2.5 --sort-keys:
-
-Output the fields of each object with the keys in sorted order.
-
-2.6 --replace:
+### 2.5 --replace:
 
 Replace the contents of the given json file instead of outputting it to the console.
