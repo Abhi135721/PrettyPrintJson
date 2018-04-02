@@ -6,7 +6,7 @@ PrettyPrintJSON is a command line utility Given a JSON document, pretty print it
 
 eg:
 
-$ cat file.json
+$ cat sample.json
 
 [{
 
@@ -30,7 +30,7 @@ $ cat file.json
 
 When we run PrettyPrintJSON on it,
 
-## $ java -jar PrettyPrintJSON --from-file=file.json
+## $ java PrettyPrintJSON.java --from-file=sample.json
 
     [
 
