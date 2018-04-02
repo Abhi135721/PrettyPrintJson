@@ -1,6 +1,6 @@
 # PrettyPrintJson
 
-1. Description:
+## 1. Description:
 
 PrettyPrintJSON is a command line utility Given a JSON document, pretty print it - either in-place or output to the console.
 
@@ -34,37 +34,37 @@ When we run PrettyPrintJSON on it,
 
 [
 
-  {
+    {
 
-  "name": "Nico Williams",
+        "name": "Nico Williams",
 
-  "parents": [
+        "parents": [
 
-  "Bob",
+            "Bob",
 
-  "Wilma"
+            "Wilma"
 
-  ],
+        ],
 
-  "student": true
+        "student": true
 
-  },
+    },
 
-  {
+    {
 
-  "name": "Nico Williams",
+    "name": "Nico Williams",
 
-  "parents": [
+    "parents": [
 
-    "Carl",
+        "Carl",
 
-    "Carly"
+        "Carly"
 
-  ],
+    ],
 
-  "student": true
+    "student": true
 
-  }
+    }
 
 ]
 
