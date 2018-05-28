@@ -10,7 +10,7 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
-public class sampleCheck {
+public class PrettyPrintJson{
   public static void main(String[] args) {
 
     File dummy = new File("src/sampletwo.json");
